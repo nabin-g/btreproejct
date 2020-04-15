@@ -152,13 +152,13 @@ MESSAGE_TAGS = {
 # EMIAL_HOST_PASSWORD = 'Muralilai@123'
 # EMAIL_USE_TLS = True
 
-SENDGRID_API_KEY = os.getenv('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')
-
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'ghimirna'
-EMAIL_HOST_PASSWORD = 'Muralilai@123'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
+# SENDGRID_API_KEY = os.getenv('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')
+#
+# EMAIL_HOST = 'smtp.sendgrid.net'
+# EMAIL_HOST_USER = 'ghimirna'
+# EMAIL_HOST_PASSWORD = 'Muralilai@123'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
 
 
 try:
