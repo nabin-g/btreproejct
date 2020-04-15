@@ -159,3 +159,9 @@ EMAIL_HOST_USER = 'ghimirna'
 EMAIL_HOST_PASSWORD = 'Muralilai@123'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+
+try:
+    from.local_settings import *
+except ImportError:
+    pass
